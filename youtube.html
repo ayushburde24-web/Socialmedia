@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Social Media</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+           display:flex; align-items:center; justify-content:center; min-height:100vh;
+           margin: 0;  background-image: url("ayush5.jpg");
+            background-size: cover;
+            background-position: center;  }
+          
+    .card {  padding:28px; border-radius:14px; box-shadow:0 8px 30px rgba(0,0,0,0.08);
+           width:90%; max-width: 550px; text-align:center;/*  position: center; */}
+
+    h1 { margin:0 0 10px; font-size:30px; font-family: WARGOD; color: white;}
+
+    p { margin:0 0 18px; color:rgba(245, 245, 245, 0.76); font-size:14px; }
+
+    .links { display:flex; flex-direction:column; gap:25px; }
+
+    .link { text-decoration:none; padding:12px 16px; width:100%; max-width: 530px;border-radius:100px ; border: 2px solid ;
+           display:grid; grid-template-columns: 40px 1fr 40px;  align-items: center;
+             color:white; font-size: 15px;  transition: .4s ease-in-out;}
+
+           .link:hover
+           {
+            transform: translateY(-10%);
+           }
+
+           .font{
+             text-align: center;
+             line-height: 1.2;
+             justify-self: center;
+           }
+
+           .icons i{
+          font-size: 22px;
+          justify-self: start;
+           }
+
+           .link::after {
+  content: "";
+}
+          
+
+    .small { font-size:13px; color:#777; margin-top:14px; }
+
+  
+@media (max-width: 600px) {
+  .links {
+    margin-left:50px;   /* move all buttons slightly left */
+    width:100%; max-width: 400px;
+  }
+
+  .link {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+
+  .icons i {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Ayush Burde</h1>
+    <p>Follow me on Social Media</p>
+
+    <div class="links">
+      <!-- Replace these lines with your actual URLs and visible text -->
+        <a class="link" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="icons"><i class="fa-brands fa-youtube" style="color: #c72323;"></i></div>
+          <div class="font">Link 1<br></div>
+        </a>
+
+      <a class="link" href="#" target="_blank" rel="noopener noreferrer">
+       <div class="icons"><i class="fa-brands fa-youtube" style="color: #c72323;"></i></div>
+        <div class="font">Link 2<br></div></a>
+
+       <a class="link" href="#" target="_blank" rel="noopener noreferrer">
+    <div class="icons"><i class="fa-brands fa-youtube" style="color: #c72323;"></i></div>
+        <div class="font">Link 3<br></div></a>
+
+
+      <a class="link" href="#" target="_blank" rel="noopener noreferrer">
+        <div class="icons"><i class="fa-brands fa-youtube" style="color: #c72323;"></i></div>
+        <div class="font">Link 4<br></div></a>
+      <!-- Add or remove links as needed -->
+    </div>
+
+     <p><br>Email :- ayushburde24@gmail.com</p>
+  </div>
+</body>
+</html>
